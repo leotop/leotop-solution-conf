@@ -8,12 +8,12 @@ apt-get purge samba* -y
 # Установка консольного текстового редактора
 apt-get install nano -y
 # Апач на сервере установлен по умолчанию, добавляем библиотеки
-apt-get install libapache2-mod-wsgi
+apt-get install libapache2-mod-wsgi -y
 apachectl restart
 # Библиотека обработки изображений для python
-apt-get install python-imaging
+apt-get install python-imaging -y
 # Python PIP для установки свежих версий ПО
-apt-get install python-pip
+apt-get install python-pip -y
 # Установка приложений и дополнений
 pip install -r https://raw.github.com/leotop/leotop-solution-conf/master/requirements.txt
 # Создаем пользователя
