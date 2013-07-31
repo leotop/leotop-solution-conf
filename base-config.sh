@@ -2,9 +2,10 @@
 # Базовая настройка сервера для django (apache2 + uwsgi) Виртуальный сервер reg.ru ubuntu 12.04-x86
 # https://raw.github.com/leotop/leotop-solution-conf/master/base-config.sh
 apt-get update
-apt-get upgrade -y
 # Освобождаем память удаляем samba
 apt-get purge samba* -y
+# Устанавливаем обновления
+apt-get upgrade -y
 # Установка консольного текстового редактора
 apt-get install nano -y
 # Апач на сервере установлен по умолчанию, добавляем библиотеки
