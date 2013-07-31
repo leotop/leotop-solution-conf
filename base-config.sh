@@ -20,7 +20,6 @@ pip install -r https://raw.github.com/leotop/leotop-solution-conf/master/require
 # Создаем пользователя
 useradd -m -G www-data leotop
 # Задаем пароль пользователю
-echo "enter a password"
 passwd leotop
 # Создаем папку www для пользователя, для размещения приложений
 mkdir /home/leotop/www/
