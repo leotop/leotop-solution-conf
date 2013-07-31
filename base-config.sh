@@ -1,5 +1,5 @@
 #!/bin/sh
-# Базовая настройка сервера для django (apache2 + uwsgi) Виртуальный сервер reg.ru ubuntu 12.04-x86
+# Базовая настройка сервера для django (apache2 + uwsgi) Виртуальный сервер ubuntu 12.04-x86 с предустановленным apache2
 # https://raw.github.com/leotop/leotop-solution-conf/master/base-config.sh
 apt-get update
 # Освобождаем память удаляем samba
