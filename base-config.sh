@@ -18,9 +18,11 @@ apt-get install python-pip -y
 # Установка приложений и дополнений
 pip install -r https://raw.github.com/leotop/leotop-solution-conf/master/requirements.txt
 # Создаем пользователя
-useradd -m -G www-data leotop
+useradd -m -G leotop leotop
 # Задаем пароль пользователю
 passwd leotop
+# Серверу разрешаем чтение и запись добавляя в группу пользователя
+sudo usermod -a -G leotop www-data
 # Создаем папку www для пользователя, для размещения приложений
 mkdir /home/leotop/www/
 chown leotop:leotop /home/leotop/www/
