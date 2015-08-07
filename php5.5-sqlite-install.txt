@@ -1,0 +1,4 @@
+apt-get update
+apt-get install php5-sqlite
+php5enmod sqlite3
+service apache2 restart
