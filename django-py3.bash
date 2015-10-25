@@ -5,6 +5,7 @@ apt-get install dialog -y
 apt-get install apache2 mc nano libapache2-mod-wsgi-py3 python3-pip python3-imaging -y
 pip3 install django
 pip3 install django-mptt
+pip3 install django-taggit
 mkdir /var/www/log
 
 #mysql python3
