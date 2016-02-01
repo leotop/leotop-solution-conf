@@ -11,3 +11,4 @@ mkdir /var/www/log
 #mysql python3
 apt-get install python3-dev libmysqlclient-dev
 pip3 install mysqlclient
+pip3 install PyMySQL
