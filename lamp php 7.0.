@@ -1,0 +1,11 @@
+apt-get update
+locale-gen ru_RU.UTF-8
+
+apt-get install apache2 dialog curl mc nano git
+
+apt-get install mysql-server mysql-client
+
+
+apt-get install php libapache2-mod-php libapache2-mod-php7.0 php-common php7.0-cli php7.0-common php7.0-json php7.0-opcache php7.0-readline php-gd php-curl php-gettext php-mcrypt php-mysql php7.0-sqlite
+  
+apt-get install phpmyadmin
