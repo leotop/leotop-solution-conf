@@ -9,3 +9,9 @@ apt-get install mysql-server mysql-client
 apt-get install php libapache2-mod-php libapache2-mod-php7.0 php-common php7.0-cli php7.0-common php7.0-json php7.0-opcache php7.0-readline php-gd php-curl php-gettext php-mcrypt php-mysql php7.0-sqlite
   
 apt-get install phpmyadmin
+
+phpenmod calendar ctype curl dom exif fileinfo ftp gd gettext iconv json mbstring mcrypt mysqli mysqlnd opcache pdo pdo_mysql pdo_sqlite phar posix readline shmop simplexml sockets sqlite3 sysvmsg sysvsem sysvshm tokenizer wddx xml xmlreader xmlwriter xsl
+
+a2enmod alias deflate expires headers include request rewrite status
+
+service apache2 restart
